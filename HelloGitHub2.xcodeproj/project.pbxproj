@@ -19,6 +19,10 @@
 		9D087569167997E9005FB8B5 /* HelloGitHub2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D087568167997E9005FB8B5 /* HelloGitHub2ViewController.m */; };
 		9D08756C167997E9005FB8B5 /* HelloGitHub2ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D08756A167997E9005FB8B5 /* HelloGitHub2ViewController_iPhone.xib */; };
 		9D08756F167997E9005FB8B5 /* HelloGitHub2ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D08756D167997E9005FB8B5 /* HelloGitHub2ViewController_iPad.xib */; };
+		9D5BFA9D167998CF00324A04 /* HelloGitHub2ViewSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BFA9B167998CF00324A04 /* HelloGitHub2ViewSecondController.m */; };
+		9D5BFA9E167998CF00324A04 /* HelloGitHub2ViewSecondController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5BFA9C167998CF00324A04 /* HelloGitHub2ViewSecondController.xib */; };
+		9D5BFAA31679996A00324A04 /* HelloGitHub2ThridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BFAA11679996A00324A04 /* HelloGitHub2ThridViewController.m */; };
+		9D5BFAA41679996A00324A04 /* HelloGitHub2ThridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5BFAA21679996A00324A04 /* HelloGitHub2ThridViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,12 @@
 		9D087568167997E9005FB8B5 /* HelloGitHub2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloGitHub2ViewController.m; sourceTree = "<group>"; };
 		9D08756B167997E9005FB8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloGitHub2ViewController_iPhone.xib; sourceTree = "<group>"; };
 		9D08756E167997E9005FB8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloGitHub2ViewController_iPad.xib; sourceTree = "<group>"; };
+		9D5BFA9A167998CF00324A04 /* HelloGitHub2ViewSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloGitHub2ViewSecondController.h; sourceTree = "<group>"; };
+		9D5BFA9B167998CF00324A04 /* HelloGitHub2ViewSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloGitHub2ViewSecondController.m; sourceTree = "<group>"; };
+		9D5BFA9C167998CF00324A04 /* HelloGitHub2ViewSecondController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloGitHub2ViewSecondController.xib; sourceTree = "<group>"; };
+		9D5BFAA01679996A00324A04 /* HelloGitHub2ThridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloGitHub2ThridViewController.h; sourceTree = "<group>"; };
+		9D5BFAA11679996A00324A04 /* HelloGitHub2ThridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloGitHub2ThridViewController.m; sourceTree = "<group>"; };
+		9D5BFAA21679996A00324A04 /* HelloGitHub2ThridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloGitHub2ThridViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,9 @@
 		9D087540167997E9005FB8B5 = {
 			isa = PBXGroup;
 			children = (
+				9D5BFAA01679996A00324A04 /* HelloGitHub2ThridViewController.h */,
+				9D5BFAA11679996A00324A04 /* HelloGitHub2ThridViewController.m */,
+				9D5BFAA21679996A00324A04 /* HelloGitHub2ThridViewController.xib */,
 				9D087555167997E9005FB8B5 /* HelloGitHub2 */,
 				9D08754E167997E9005FB8B5 /* Frameworks */,
 				9D08754C167997E9005FB8B5 /* Products */,
@@ -92,6 +105,9 @@
 				9D08756A167997E9005FB8B5 /* HelloGitHub2ViewController_iPhone.xib */,
 				9D08756D167997E9005FB8B5 /* HelloGitHub2ViewController_iPad.xib */,
 				9D087556167997E9005FB8B5 /* Supporting Files */,
+				9D5BFA9A167998CF00324A04 /* HelloGitHub2ViewSecondController.h */,
+				9D5BFA9B167998CF00324A04 /* HelloGitHub2ViewSecondController.m */,
+				9D5BFA9C167998CF00324A04 /* HelloGitHub2ViewSecondController.xib */,
 			);
 			path = HelloGitHub2;
 			sourceTree = "<group>";
@@ -168,6 +184,8 @@
 				9D087566167997E9005FB8B5 /* Default-568h@2x.png in Resources */,
 				9D08756C167997E9005FB8B5 /* HelloGitHub2ViewController_iPhone.xib in Resources */,
 				9D08756F167997E9005FB8B5 /* HelloGitHub2ViewController_iPad.xib in Resources */,
+				9D5BFA9E167998CF00324A04 /* HelloGitHub2ViewSecondController.xib in Resources */,
+				9D5BFAA41679996A00324A04 /* HelloGitHub2ThridViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +199,8 @@
 				9D08755C167997E9005FB8B5 /* main.m in Sources */,
 				9D087560167997E9005FB8B5 /* HelloGitHub2AppDelegate.m in Sources */,
 				9D087569167997E9005FB8B5 /* HelloGitHub2ViewController.m in Sources */,
+				9D5BFA9D167998CF00324A04 /* HelloGitHub2ViewSecondController.m in Sources */,
+				9D5BFAA31679996A00324A04 /* HelloGitHub2ThridViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +326,7 @@
 				9D087574167997E9005FB8B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
